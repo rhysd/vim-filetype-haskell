@@ -39,8 +39,6 @@ setlocal indentexpr=GetHaskellIndent()
 setlocal indentkeys=!^F,o,O,=where,0<Bar>
 
 setlocal expandtab
-setlocal softtabstop=2
-setlocal shiftwidth=2
 
 let b:undo_indent = 'setlocal '.join([
 \   'autoindent<',
